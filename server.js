@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
  
-const wordpress = require('./lib/wordpress/wordpress');
+const wordpress = require('wordpress');
  
 const port = process.env.PORT || 3100;
  
